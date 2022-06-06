@@ -37,8 +37,8 @@ patronized by condescending sighted people"
 <h1 className="text-red-500 text-2xl">What we Do ?</h1>
     </div>
 <div className="grid md:grid-cols-4 gap-5 p-5 md:p-16">
-    <div><img className='md:w-72 h-20 md:h-48' src="/images/events/1.jpg"  /></div>
-    <div><img className='md:w-72 w-40 h-20 md:h-48 ' src="/images/events/DSC_0220.JPG"  /></div>
+    <div><img className='md:w-72 h-20 md:h-48' src="https://raw.githubusercontent.com/LBWA-NGO/lbwa-website/master/images/events/1.jpg"  /></div>
+    <div><img className='md:w-72 w-40 h-20 md:h-48 ' src="https://raw.githubusercontent.com/LBWA-NGO/lbwa-website/master/images/events/DSC_0220.JPG"  /></div>
     <div className="col-span-2">
     <div className="grid md:grid-cols-12 ">
     <div className="bg-red-400 w-2 justify-self-end"></div>
