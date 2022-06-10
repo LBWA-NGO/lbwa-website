@@ -8,12 +8,12 @@ function Footer(){
   function Modal(){
     if(isModalOpen){return(
     <div className='fixed  top-20 md:h-4/5  bg-white place-self-center border-2 p-5'>
-    QR Code
-    <img className='w-48' src='https://www.lakhaipur.in/wp-content/uploads/2019/04/paytm-qr-code.jpg'></img>
-    or<br></br> 
-    IFSC Code:xxxx xxxx xxxxx xxxx
+    {/* QR Code */}
+    <img className='w-48 hidden' src='https://www.lakhaipur.in/wp-content/uploads/2019/04/paytm-qr-code.jpg'></img>
+    {/* or<br></br>  */}
+    IFSC Code: PUNB 0351 200
     <br></br>
-    Acc no: xxxx xxxx xxxx xxxx
+    Acc no: 3512 0001 0028 0820
     <br></br>
     <button onClick={toggleModal} className="bg-red-500 hover:bg-red-700 text-white font-bold  p-1 rounded">close</button>
     </div>)}
@@ -114,7 +114,7 @@ function Footer(){
                  d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
                </path>
              </svg>
-             info@lbwa.com
+             lbwafortheblind2015@gmail.com
            </p>
            <p class="flex items-center justify-center md:justify-start mb-4">
              <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone"

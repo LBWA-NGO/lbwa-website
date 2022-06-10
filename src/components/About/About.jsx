@@ -8,13 +8,13 @@ function About() {
   }
   function Modal(){
     if(isModalOpen){return(
-    <div className='fixed  top-20 md:h-4/5 bg-white place-self-center border-2 p-5'>
-    QR Code
-    <img className='w-48' src='https://www.lakhaipur.in/wp-content/uploads/2019/04/paytm-qr-code.jpg'></img>
-    or<br></br> 
-    IFSC Code:xxxx xxxx xxxxx xxxx
+    <div className='fixed  top-20 md:h-4/5  bg-white place-self-center border-2 p-5'>
+    {/* QR Code */}
+    <img className='w-48 hidden' src='https://www.lakhaipur.in/wp-content/uploads/2019/04/paytm-qr-code.jpg'></img>
+    {/* or<br></br>  */}
+    IFSC Code: PUNB 0351 200
     <br></br>
-    Acc no: xxxx xxxx xxxx xxxx
+    Acc no: 3512 0001 0028 0820
     <br></br>
     <button onClick={toggleModal} className="bg-red-500 hover:bg-red-700 text-white font-bold  p-1 rounded">close</button>
     </div>)}
