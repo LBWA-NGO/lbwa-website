@@ -33,7 +33,7 @@ function About() {
     <div className="grid md:grid-cols-12 ">
     <div className="bg-red-400 w-2 justify-self-end"></div>
     <div className="col-span-11">
-   <div className='md:grid md:visible hidden'> <img className='w-48 h-48' src="https://scontent.fixc8-2.fna.fbcdn.net/v/t1.6435-9/166835294_493116208762012_8969540140414114917_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=303LBJcHaGgAX8syFQn&tn=eNXwMQQBRoQugxtf&_nc_ht=scontent.fixc8-2.fna&oh=00_AT_iHnWA4FaVYJ4mF3no1loZwR7FdtLB6vo4WA7yPVPQbg&oe=62AFD4B9"  />   
+   <div className='md:grid md:visible hidden'> <img className='w-48 h-48' src="https://raw.githubusercontent.com/LBWA-NGO/lbwa-website/master/images/6.jpg"  />   
 </div>
    <button onClick={toggleModal} className="bg-red-500 hover:bg-red-700 text-white font-bold m-2 p-2 rounded">Donate us</button>
     </div>
