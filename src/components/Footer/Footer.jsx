@@ -130,7 +130,7 @@ function Footer(){
        </div>
      </div>
      <hr className='bg-red-700'></hr>
-      <div className='flex flex-col items-center justify-center'><a href="https://condacode.com/">Made by <span className='font-semibold'>CondaCode</span></a></div>
+      <div className='flex flex-col items-center justify-center'><a href="https://credenshia.com/">Made by <span className='font-semibold'>Credenshia</span></a></div>
    </footer>
    <Modal />
        </div>);
